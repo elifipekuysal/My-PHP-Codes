@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Local ve Public IP</title>  
         <meta charset= "UTF-8">
@@ -10,11 +9,11 @@
     </head>
 
     <body>
-        <h1 style= " color: #404040; background-color: #ccccff">IP Adresiniz</h1>
+        <h1 style= "color: #404040; background-color: #ccccff">IP Adresiniz</h1>
         <fieldset>
             <?php
                 $publicip= 0;
-            
+
                 if (getenv('HTTP_CLIENT_IP')) {
                     $localip = getenv('REMOTE_ADDR');
                     $publicip = getenv('HTTP_CLIENT_IP'); 
@@ -44,12 +43,11 @@
         </fieldset>
         
 
-        <center>
+        <div align="center">
             <small>
-                <a href="https://elifipekuysal.github.io">Blog</a>
+                <a href="https://elifipekuysal.github.io">elifipekuysal.github.io</a>
             </small>
-        <center>
+        <div>
+
     </body>
-
 </html>
-
