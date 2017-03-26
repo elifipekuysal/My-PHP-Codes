@@ -13,7 +13,6 @@
         <fieldset>
             <?php
                 $publicip= 0;
-
                 if (getenv('HTTP_CLIENT_IP')) {
                     $localip = getenv('REMOTE_ADDR');
                     $publicip = getenv('HTTP_CLIENT_IP'); 
@@ -43,11 +42,10 @@
         </fieldset>
         
 
-        <div align="center">
+        <div align= "center">
             <small>
-                <a href="https://elifipekuysal.github.io">elifipekuysal.github.io</a>
+                <a href= "https://elifipekuysal.github.io" target= "_blank">elifipekuysal.github.io</a>
             </small>
         <div>
-
     </body>
 </html>
